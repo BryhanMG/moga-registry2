@@ -1,0 +1,74 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "db"
+  },
+  "AccessToken": {
+    "dataSource": "db",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "db",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "db",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "db",
+    "public": false
+  },
+  "actividades": {
+    "dataSource": "db",
+    "public": true
+  },
+  "administradores": {
+    "dataSource": "db",
+    "public": true
+  },
+  "administradores_registros": {
+    "dataSource": "db",
+    "public": true
+  },
+  "candidatos": {
+    "dataSource": "db",
+    "public": true
+  },
+  "evento_registros": {
+    "dataSource": "db",
+    "public": true
+  },
+  "evento_votaciones": {
+    "dataSource": "db",
+    "public": true
+  },
+  "imagenes": {
+    "dataSource": "db",
+    "public": true
+  },
+  "maquina_votaciones": {
+    "dataSource": "db",
+    "public": true
+  },
+  "usuarios": {
+    "dataSource": "db",
+    "public": true
+  }
+}

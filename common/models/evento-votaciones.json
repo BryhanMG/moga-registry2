@@ -1,0 +1,42 @@
+{
+  "name": "evento_votaciones",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_": {
+      "type": "string",
+      "required": true
+    },
+    "nombre_ev": {
+      "type": "string",
+      "required": true
+    },
+    "fecha_i": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_f": {
+      "type": "date",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string",
+      "required": true
+    },
+    "votantes": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

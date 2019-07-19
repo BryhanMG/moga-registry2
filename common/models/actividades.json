@@ -1,0 +1,52 @@
+{
+  "name": "actividades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_a": {
+      "type": "string",
+      "required": true
+    },
+    "nombre_a": {
+      "type": "string",
+      "required": true
+    },
+    "fecha_i": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_f": {
+      "type": "date",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "estado": {
+      "type": "string",
+      "required": true
+    },
+    "tipo": {
+      "type": "number",
+      "required": true
+    },
+    "total": {
+      "type": "number"
+    },
+    "monto": {
+      "type": "number"
+    },
+    "asistentes": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

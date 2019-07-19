@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "mongodb+srv://clustermoga-llumz.mongodb.net/moga",
+    "port": 27017,
+    "url": "mongodb+srv://bryan:Pato123456@clustermoga-llumz.mongodb.net/moga?retryWrites=true",
+    "database": "clustermoga",
+    "password": "Pato123456",
+    "name": "db",
+    "user": "bryan",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  }
+}
